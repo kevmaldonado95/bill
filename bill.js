@@ -10,5 +10,5 @@ function calculateBill(){
     }else{
         montoIndividual = (monto + propina)/personas;
     }
-    document.getElementById("individual").innerHTML = montoIndividual.toFixed(2);
+    document.getElementById("individual").innerHTML = "$" + montoIndividual.toFixed(2);
 }
